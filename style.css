@@ -1,35 +1,40 @@
-body{
-    background: #FF4000;
-    font-style: normal;
-    font-variant: small-caps;
-    font-stretch: semi-expanded;
+body {
+  background: #ff4000;
+  font-style: normal;
+  font-variant: small-caps;
+  font-stretch: semi-expanded;
 }
 
-.first-name{
-    color: #FAAA8D;
+.centered{
+width: 1200px;
+margin: auto;
 }
 
-.notes-first{
-    color: #520e0e
-}
-footer{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #ec0909;
+.first-name {
+  color: #faaa8d;
 }
 
-#notes{
-    color: #ffffff;
+.notes-first {
+  color: #520e0e;
+}
+footer {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #ec0909;
 }
 
-#notes-szkolenie{
-    color: #ffffff
+#notes {
+  color: #ffffff;
 }
 
-.navigate{
-    color: #000000;
-    background-color: lightpink;
+#notes-szkolenie {
+  color: #ffffff;
 }
 
-.inside-link{
-    color: #A5BE00;
+.navigate {
+  color: #000000;
+  background-color: lightpink;
+}
+
+.inside-link {
+  color: #a5be00;
 }
