@@ -8,23 +8,24 @@
   </head>
 
   <body class="centered">
-    <header id="top-glowna">
-      <nav class="navigate">
-        <a href="index.html">Strona główna</a>
-        <a href="szkolenie-html.html">Szkolenie</a>
+    <header id="header">
+      <nav class="navigation">
+        <a class="navigation__link navigation__link--homepage" href="index.html">Strona główna</a>
+        <a class="navigation__link" href="szkolenie-html.html">Szkolenie</a>
+        <a class="navigation__link" href="empty.html">Pusta</a>
       </nav>
     </header>
 
     <main>
-      <header>
-        <h1 class="first-name">Piotr Leszcz</h1>
-        <img src="piotrLeszcz.jpg" alt="Przystojny facet" width="250" />
+      <header class="top">
+        <h1 class="top top__name">Piotr Leszcz</h1>
+        <img class="top top__image" src="piotrLeszcz.jpg" alt="Przystojny facet"/>
       </header>
 
-      <section>
-        <h2>Kim jestem?</h2>
-        <article>
-          <p>
+      <section class="article">
+        <h2 class="article__head">Kim jestem?</h2>
+        <article class="article__content">
+          <p class="article__content article__content--text">
             Z wykształcenia <b>geodeta inżynier</b>, który po roku zdecydował
             się spontanicznie na zmianę kierunku i zmianę ścieżki zawodowej.
             <br />Obecnie pracuję w
@@ -38,19 +39,19 @@
         </article>
       </section>
 
-      <section>
-        <h2>Co dalej?</h2>
-        <article>
-          <h3>Plany</h3>
-          <p>
+      <section class="article">
+        <h2 class="article__head">Co dalej?</h2>
+        <article class="article__content">
+          <h3 class="article__content article__content--header">Plany</h3>
+          <p class="article__content article__content--text">
             Mam wiele pomysłów i planów na życie. Ciągle coś nowego wpada mi do
             głowy - geodezja, marketing, frontend, własna działalność. Rzeczy
             pozornie niezwiązane ze sobą kierują mnie w bliżej nieznanym
             kierunku by może za kilka lat - spojrzeć, zatrzymać się i
             stwierdzić, że to wszystko łączy się ze sobą w idealny miks….
           </p>
-          <h3>Realizowane założenia</h3>
-          <p>
+          <h3 class="article__content article__content--header">Realizowane założenia</h3>
+          <p class="article__content article__content--text">
             Planuję przebranżowić się oraz na poważnie związać moje życie z
             Frontendem. Zostałem przyjęty na studia podyplomowe na kierunku
             ‘Frontend deweloper’ w jednej z poznańskich szkół prywatnych. Kurs
@@ -60,48 +61,48 @@
         </article>
       </section>
 
-      <section id="notes">
-        <h2 class="notes-first"><strong>Notatki</strong></h2>
+      <section class="article" id="notes">
+        <h2 class="article__head"><strong>Notatki</strong></h2>
 
-        <nav>
-          <a class="inside-link" href="#first-week">Tydzień #1</a><br />
-          <a class="inside-link" href="#second-week">Tydzień #2</a><br />
-          <a class="inside-link" href="#third-week">Tydzień #3</a><br />
-          <a class="inside-link" href="#fourth-week">Tydzień #4</a>
+        <nav class="article__navigation">
+          <a class="article__navigation" href="#first-week">Tydzień #1</a><br />
+          <a class="article__navigation" href="#second-week">Tydzień #2</a><br />
+          <a class="article__navigation" href="#third-week">Tydzień #3</a><br />
+          <a class="article__navigation" href="#fourth-week">Tydzień #4</a>
         </nav>
 
-        <article>
-          <h3 id="first-week">Tydzień #1</h3>
-          <h4>Lekcja 1.2</h4>
-          <p><i>Frontend vs Backend</i></p>
-          <h4>Lekcja 1.3</h4>
-          <p>Google Chrome<br />Visual Studio Code<br />Slack</p>
-          <h4>Lekcja 1.4</h4>
-          <p>Junior > Mid > Senior > Expert > Ninja/Wizard</p>
-          <h4>Lekcja 1.5</h4>
-          <p>Konfiguracja MAC/Windows/Linux</p>
-          <h4>Lekcja 1.6</h4>
-          <p>
+        <article class="article__content">
+          <h3 class="article__content article__content--header" id="first-week">Tydzień #1</h3>
+          <h4 class="article__content article__content--lesson">Lekcja 1.2</h4>
+          <p class="article__content article__content--text"><i>Frontend vs Backend</i></p>
+          <h4 class="article__content article__content--lesson">Lekcja 1.3</h4>
+          <p class="article__content article__content--text">Google Chrome<br />Visual Studio Code<br />Slack</p>
+          <h4 class="article__content article__content--lesson">Lekcja 1.4</h4>
+          <p class="article__content article__content--text">Junior > Mid > Senior > Expert > Ninja/Wizard</p>
+          <h4 class="article__content article__content--lesson">Lekcja 1.5</h4>
+          <p class="article__content article__content--text">Konfiguracja MAC/Windows/Linux</p>
+          <h4 class="article__content article__content--lesson">Lekcja 1.6</h4>
+          <p class="article__content article__content--text">
             ctrl + F - Szukanie<br />ctrl + S - Zapisanie w Visual Studio Code
           </p>
-          <h3 id="second-week">Tydzień #2</h3>
-          <h4>Lekcja 2.1</h4>
-          <p>Zadanie domowe z Tygodnia #1</p>
-          <h4>Lekcja 2.2</h4>
-          <p>
+          <h3 class="article__content article__content--header" id="second-week">Tydzień #2</h3>
+          <h4 class="article__content article__content--lesson">Lekcja 2.1</h4>
+          <p class="article__content article__content--text">Zadanie domowe z Tygodnia #1</p>
+          <h4 class="article__content article__content--lesson">Lekcja 2.2</h4>
+          <p class="article__content article__content--text">
             Warstwa 0 - Treść (Content)<br />
             Wartwa 1 - Semantyka (HTML)<br />
             Warstwa 2 - Prezentacja (CSS) Warstwa 3 - Interakcja (JavaScript)
           </p>
-          <p>
+          <p class="article__content article__content--text">
             <strong
-              >WAŻNE! Jeśli można coś zrobić za pomocą jednej warstwy (np. HTML)
+            >WAŻNE! Jeśli można coś zrobić za pomocą jednej warstwy (np. HTML)
               nie mieszajmy w to innej warstwy (np. JS)</strong
             >
           </p>
-          <h4>Lekcja 2.3</h4>
-          <p>HTML = HyperText Markup Language</p>
-          <p>
+          <h4 class="article__content article__content--lesson">Lekcja 2.3</h4>
+          <p class="article__content article__content--text">HTML = HyperText Markup Language</p>
+          <p class="article__content article__content--text">
             Odpowiada za treść (jej właściwe opakowanie)<br />
             Składa się ze znaczników/tagów/elementów<br />
             Semantyczny = mający znaczenie<br />
@@ -109,23 +110,23 @@
             Nowy projekt (homepage) - index.html<br />
             ! + TAB - szkielet strony
           </p>
-          <h4>Lekcja 2.4</h4>
-          <p>
+          <h4 class="article__content article__content--lesson">Lekcja 2.4</h4>
+          <p class="article__content article__content--text">
             CSS = Cascading Style Sheets (Kaskadowe Arkusze Stylów)<br />
             Odpowiada za prezentację strony<br />
             Rozszerzenie .css<br />
             Nowy projekt (homepage) - style.ccs
           </p>
-          <h3 id="third-week">Tydzień #3</h3>
-          <h3 id="fourth-week">Tydzień #4</h3>
+          <h3 class="article__content article__content--header" id="third-week">Tydzień #3</h3>
+          <h3 class="article__content article__content--header" id="fourth-week">Tydzień #4</h3>
         </article>
       </section>
     </main>
 
-    <footer>
+    <footer class="bottom">
       Cała treść strony została przygotowana na potrzeby WTF: Co Ten Frontend, a
       jej treść nie musi być prawdą
-      <a href="#top-glowna">Wróć do góry strony</a>
+      <a class="bottom__link" href="#header">Wróć do góry strony</a>
     </footer>
 
     <script src="main.js"></script>

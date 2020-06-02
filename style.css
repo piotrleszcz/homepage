@@ -1,40 +1,82 @@
-body {
-  background: #ff4000;
-  font-style: normal;
-  font-variant: small-caps;
-  font-stretch: semi-expanded;
+.article{
+
 }
+
+.article__content{
+
+}
+
+.article__content--lesson{
+
+}
+
+.article__content--text{
+
+}
+
+.article__content--header{
+
+}
+
+.article__head{
+
+}
+
+.article__navigation{
+
+}
+
+.bottom{
+
+}
+
+.bottom__link{
+
+}
+
 
 .centered{
-width: 1200px;
-margin: auto;
+  width: 80%;
+  margin: auto;
+  padding-top: 30px;
+  color: #4C86A8
+
 }
 
-.first-name {
-  color: #faaa8d;
+.navigation{
+  position: relative;
+  background-color: #B4DC7F;
+  padding: 15px;
+  border-radius: 15px;
+  text-align: center;
+  
 }
 
-.notes-first {
-  color: #520e0e;
-}
-footer {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: #ec0909;
+.navigation__link{
+  color: #477890;
+  background-color: #EAEFBD;
+  padding: 0px 30px; 
+  border-style: 20px solid;
+  border-radius: 30px;
+  border-color: #EAEFBD;
+  text-align: center;
+  margin: 30px;
+  text-decoration: white;
+
 }
 
-#notes {
-  color: #ffffff;
+.navigation__link--homepage{
+  color:rgb(124, 36, 48);
 }
 
-#notes-szkolenie {
-  color: #ffffff;
+.top{
+
 }
 
-.navigate {
-  color: #000000;
-  background-color: lightpink;
+.top__image{
+  width: "20%";
 }
 
-.inside-link {
-  color: #a5be00;
+.top__name{
+
 }
