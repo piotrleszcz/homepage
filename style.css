@@ -1,17 +1,16 @@
 .article{
-
+ 
 }
 
 .article__content{
-
 }
 
 .article__content--lesson{
-
+  
 }
 
 .article__content--text{
-
+  
 }
 
 .article__content--header{
@@ -22,12 +21,24 @@
 
 }
 
+.article__more{
+
+}
+
+.article__more--header{
+
+}
+
+.article__more--content{
+
+}
+
 .article__navigation{
 
 }
 
 .bottom{
-
+font-style: italic;
 }
 
 .bottom__link{
@@ -36,10 +47,13 @@
 
 
 .centered{
-  width: 80%;
+  width: 70%;
   margin: auto;
   padding-top: 30px;
-  color: #4C86A8
+  color: #4C86A8;
+  font-style: oblique;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-variant: small-caps;
 
 }
 
@@ -74,9 +88,12 @@
 }
 
 .top__image{
-  width: "20%";
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .top__name{
-
+  
 }
